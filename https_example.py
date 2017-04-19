@@ -9,7 +9,7 @@ context.check_hostname = True
 context.load_default_certs()
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-ssl_sock = context.wrap_socket(s, server_hostname='help.github.com')
+ssl_sock = context.wrap_socket(s, server_hostname='google.com')
 
 try:
     ssl_sock.connect(('help.github.com', 443))
