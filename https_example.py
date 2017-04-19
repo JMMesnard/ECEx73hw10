@@ -1,4 +1,6 @@
-# Inser your name here
+# Insert your name here
+# [ Joe Mesnard ] 
+
 import socket, ssl
 
 context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
